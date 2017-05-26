@@ -4,7 +4,7 @@
 
     <groupId>com.gitghub.thiagogarbazza.exemplos</groupId>
     <artifactId>test-maven-release-plugin</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <modules>
         <module>domain</module>
         <module>rest-adapter</module>
@@ -18,7 +18,7 @@
         <connection>scm:git:https://github.com/thiagogarbazza/example-maven-release.git</connection>
         <developerConnection>scm:git:https://github.com/thiagogarbazza/example-maven-release.git</developerConnection>
         <url>https://github.com/thiagogarbazza/example-maven-release.git</url>
-        <tag>HEAD</tag>
+        <tag>0.0.1</tag>
   </scm>
 
     <dependencyManagement>
